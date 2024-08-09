@@ -1,0 +1,34 @@
+{
+  "name": "express-api-boilerplate",
+  "version": "1.0.0",
+  "description": "An express API boilerplate that I wrote when I was sleep-deprived, and maybe slightly drunk too.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "vitest": "vitest"
+  },
+  "repository": "https://github.com/PedroClerici/express-api-boilerplate",
+  "author": "Pedro Clerici",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4",
+    "@types/pg": "^8.11.6",
+    "drizzle-kit": "^0.24.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "neostandard": "^0.11.2",
+    "prettier": "3.3.3",
+    "tsup": "^8.2.4",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  },
+  "packageManager": "yarn@4.4.0",
+  "dependencies": {
+    "drizzle-orm": "^0.33.0",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
